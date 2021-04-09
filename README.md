@@ -19,4 +19,8 @@ This is a small demo which illustrate the application written using python which
 
     Example output can be seen in the file **weather_data.docs** in the repository
 
+### Prerequsite Library Needed
+  1. requests
+  2. JSON
+  3. DateTime (Optional if you need to have a date stored) 
 
