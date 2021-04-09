@@ -29,6 +29,7 @@ for i in range(0,n):
     #If the return code is not 404, process the data else throw error to user
     if x["cod"] != "404":
     
+# 	getting the required datas
         y = x['main']
         c = x['sys']
         w = x['wind']
@@ -45,9 +46,11 @@ for i in range(0,n):
         wind_speed = w['speed']
         wind_deg = w['deg']
     
-        f = open("weather_data.doc",'a',encoding = 'utf-8')
+	#Opening a file and writting the datas onto the file
+        
+	f = open("weather_data.doc",'a',encoding = 'utf-8')
         f.write("\n")
-        f.write(str(name) + "\t" + str(country) +"\t" + str(weather) + '\t' + str(min_temp) +'\t' + str(max_temp) +'\t'+ 
+	f.write(str(name) + "\t" + str(country) +"\t" + str(weather) + '\t' + str(min_temp) +'\t' + str(max_temp) +'\t'+ 
         str(pressure) +'\t' + str(humidiy) +'\t' + str(wind_speed) +'\t' + str(wind_deg) +'\t' + str(coordinates) +'\t' + str(date.today()) +'\n')
         f.close()
         print("Write Sucessful")
