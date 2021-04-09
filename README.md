@@ -7,5 +7,4 @@ Program flow:
   2. The given input is appended into a list.
   3. iteration begins and based on the API key provided by the User and the city name is obtained by the iterating the list
   4. As in when the data is obtained as JSON format, the required data is obtained, cleaned and written inside a file using Python File I/O
-  5. As in when the data is written a small message stating that **writting is Sucessful for user**
-  
+  5. As in when the data is written a small message stating that **Writting is Sucessful** for user
