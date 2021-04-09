@@ -12,7 +12,8 @@ This is a small demo which illustrate the application written using python which
 
 ### Program Output
 
-    On sucessful running of the program, the user can able to view various factors that is associated with the temprature of all the cities he had given as the input
+    On sucessful running of the program, the user can able to view 
+    various factors that is associated with the temprature of all the cities he had given as the input
     
 ### Example Output 
 
